@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 1905119674867457073}
   - component: {fileID: 2370607677953531790}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: AOE Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -5,14 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Waypoints
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - bullet
   - Water
   - UI
-  - 
+  - Background
   - 
   - 
   - 
@@ -39,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bullets
+    uniqueID: 1033715591
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

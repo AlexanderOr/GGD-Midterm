@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5431935304925600031}
   - component: {fileID: 5431935304925600030}
   - component: {fileID: 5431935304925600029}
+  - component: {fileID: 6220909870516519163}
   m_Layer: 0
   m_Name: Regular enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,4 +96,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74c131a4b4d4244fb2cedfa1a9ce216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHP: 10
   speed: 1
+  explosion: {fileID: 3160184955731222033, guid: e52cb3accf5f1794fa20ec34f8eed19b, type: 3}
+  HealthText: {fileID: 9122425100144559729, guid: 1cf33ae63f9c09c42a9bcecd7b0af34e, type: 3}
+--- !u!61 &6220909870516519163
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431935304925600028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
